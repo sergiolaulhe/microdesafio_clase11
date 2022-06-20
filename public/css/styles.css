@@ -1,0 +1,91 @@
+header {
+    background-color: #EAC926;
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+body {
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-align: center;
+}
+
+footer {
+    color: #666;
+    text-align: center;
+}
+
+.searchBox {
+    text-align: left;
+}
+.tituloCuotas {
+    font-size: 12px;
+    text-align: center;
+}
+
+.formato-menu {
+    color: #03264C;
+    text-align: left;
+    text-decoration: none;
+    list-style: none;
+}
+.formato-menu li a {
+    text-decoration: none;
+    color: #03264C
+    
+}
+
+.titular {
+    color: #03264C;
+    text-align: center;
+}
+
+#icono {
+    color: #03264C;
+    
+}
+
+
+
+.burger-menu {
+    color: white;
+    background-color: #1259c3;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    size: 2em;
+}
+
+.burger-button {
+    color: white;
+    background-color: #1259c3;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    size: 2em;
+    ;
+}
+
+
+
+
+.titulares {
+    font-size: 24px;
+    text-align: center;
+};
+.precios {
+    font-size: 18px;
+};
+
+.descuentos {
+    font-size: 16px;
+}
+.descripciones {
+    font-size: 16px;
+}
+
+#icono2 {
+    color: #1259c3;
+    font-size: 2em;
+    line-height: 10px
+}
+
