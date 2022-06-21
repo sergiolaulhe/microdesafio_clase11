@@ -1,10 +1,16 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto' sans-serif;
+
+}
+
 header {
     background-color: #EAC926;
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-size: 12px;
 }
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto' sans-serif;
     font-size: 12px;
     text-align: center;
 }
@@ -13,6 +19,28 @@ footer {
     color: #666;
     text-align: center;
 }
+
+main {
+    margin: auto;
+    width: 90%;
+    text-align: left
+}
+
+.logo {
+    background-position: left;
+}
+
+.contenedor-articulo {
+    margin-bottom: 10px;
+    border: 15px;
+    border-top: solid 1px #ebebeb;
+    
+
+}
+.contenedor-articulo img {
+    color: green;
+}
+
 
 .searchBox {
     text-align: left;
@@ -77,6 +105,7 @@ footer {
 };
 
 .descuentos {
+    color: green;
     font-size: 16px;
 }
 .descripciones {
@@ -87,5 +116,9 @@ footer {
     color: #1259c3;
     font-size: 2em;
     line-height: 10px
+}
+
+.enviosTruck {
+    color: green;
 }
 

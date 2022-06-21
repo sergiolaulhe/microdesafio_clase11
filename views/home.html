@@ -10,17 +10,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="/css/normalize.css" rel="stylesheet">
     <link href="/css/styles.css" rel="stylesheet">
 </head>
 
 <body>
     <header>
-        <img src="/images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre">
-        <form class="searchBox">
-            <input type="text" placeholder="Buscar productos, marcas">
-            <button><i id="icono" class="fa-solid fa-magnifying-glass"></i></button>
-        </form>
-        <p class="tituloCuotas"><i id="icono" class="fa-solid fa-hand-holding-dollar"></i> Compra en cuotas y sin tarjeta de crédito</p>
+        <div>
+            <div>
+                <img class="logo" src="/images/logo-mercado-liebre.svg" width="360" alt="Logo de MercadoLiebre">
+            </div>
+            <div>
+                <form class="searchBox">
+                <input type="text" placeholder="Buscar productos, marcas">
+                <button><i id="icono" class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+        </div>
+        <p class="tituloCuotas"><i id="icono" class="fa-solid fa-hand-holding-dollar"></i>Compra en cuotas y sin tarjeta de crédito</p>
         <nav>
             <ul class="formato-menu">
                 <li><a href="">Ofertas</a></li>
@@ -41,65 +47,80 @@
         </div>
     </header>
 
-    <section>
-        <img src="/images/img-home-banner.jpg" width="395" alt="Banner de ofertas">
-    </section>
+        <section>
+            <img src="/images/img-home-banner.jpg" width="395" alt="Banner de ofertas">
+        </section>
 
     <main>
         <section>
             </div>
-            <h3 id="titulares">Basado en tu última visita</h3>
+                <h3 id="titulares">Basado en tu última visita</h3>
             </div>
-            <article>
+            <article class="contenedor-article">
                 <img src="/images/img-cafetera-moulinex.jpg" width="360" alt="Imagen de producto">
-                <p id="precios">$6770</p>
-                <p id="descuentos">40% OFF</p>
-                <h4 id="descripciones">Cafetera Moulinex</h4>
+                <div>
+                    <i class="enviosTruck fa-solid fa-truck"></i>
+                    <p id="precios">$6770</p>
+                    <p class="descuentos">40% OFF</p>
+                    <h4 id="descripciones">Cafetera Moulinex</h4>
+                </div>
             </article>
 
-            <article>
+            <article class="contenedor-article">
                 <img src="/images/img-macbook-pro-2019.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$230.000</p>
-                <p id="descuentos">20% OFF</p>
+                <p class="descuentos">20% OFF</p>
                 <h4 id="descripciones">MacBook Pro 2019</h4>
             </article>
 
-            <article>
+            <article class="contenedor-article">
                 <img src="/images/img-samsung-galaxy-s10.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$70.500</p>
-                <p id="descuentos">10% OFF</p>
+                <p class="descuentos">10% OFF</p>
                 <p>Samsung Galaxy S10</p>
             </article>
 
-            <article>
+            <article class="contenedor-article">
                 <img src="/images/img-tv-samsung-smart.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$23.200</p>
                 <p id="descuentos">5% OFF</p>
                 <p>SmartTV Samsung 43"</p>
             </article>
         </section>
         <section>
-            <h2 id="titulares">Sección de Ofertas</h2>
-            <article>
+            <div>    
+                <h2 id="titulares">Sección de Ofertas</h2>
+            </div>
+            <article class="contenedor-article">
                 <img src="/images/img-cafetera-moulinex.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$6770</p>
                 <p id="descuentos">40% OFF</p>
                 <p>Cafetera Moulinex</p>
             </article>
-            <article>
+
+            <article class="contenedor-article">
                 <img src="/images/img-macbook-pro-2019.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$230.000</p>
                 <p id="descuentos">20% OFF</p>
                 <p>MacBook Pro 2019</p>
             </article>
-            <article>
+
+            <article class="contenedor-article">
                 <img src="/images/img-samsung-galaxy-s10.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$70.500</p>
                 <p id="descuentos">10% OFF</p>
                 <p>Samsung Galaxy S10</p>
             </article>
-            <article>
+            
+            <article class="contenedor-article">
                 <img src="/images/img-tv-samsung-smart.jpg" width="360" alt="Imagen de producto">
+                <i class="enviosTruck fa-solid fa-truck"></i>
                 <p id="precios">$23.200</p>
                 <p id="descuentos">5% OFF</p>
                 <p>SmartTV Samsung 43"</p>
